@@ -16,7 +16,6 @@
 </head>
 <body>
     <div class="container-fluid">
-        <input type="button" value="このページを再読込します" onclick="window.location.reload();" />
         <p style="font-size: 4.2vw; padding-top:10px;text-align: center;"><strong>2020/10/16 13:54:00 ~ 2020/10/16 13:55:00</strong>
         <div>
             <div style="font-size: 5vw;text-align: center;"><strong>賑わい始めてます！</strong></div>
