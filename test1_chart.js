@@ -59,7 +59,7 @@ function csv2Array(str) {
   function main() {
     // 1) ajaxでCSVファイルをロード
     var req = new XMLHttpRequest();
-    var filePath = './data/test1.csv';
+    var filePath = './data/people_count_test1.csv';
     req.open("GET", filePath, true);
     req.onload = function() {
       // 2) CSVデータ変換の呼び出し
