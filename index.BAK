@@ -6,10 +6,7 @@
 </head>
 
 <body>
-    <div style="margin-left:10%;margin-right:10%;">
-        <input type="button" style="width:100%;padding:10px;font-size:30px;" value="混雑検知状況を見る" onclick="gate()";/>
-    </div>
-
+<input type="button" value="混雑検知状況を見る" onclick="gate();">
 
 <script type="text/javascript">
    function gate() {
