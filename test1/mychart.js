@@ -31,7 +31,7 @@ function csv2Array(str) {
     }  
     // 4)chart.jsで描画
     var ctx = document.getElementById("myChart").getContext("2d");
-    window.myChart = new Chart(ctx, {
+    var myChart = new Chart(ctx, {
       type: 'line',
       data: {
         labels: tmpLabels,
@@ -54,6 +54,7 @@ function csv2Array(str) {
         }
       }
     });
+    myChart.destroy();
   }
 
   function main() {
