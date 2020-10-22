@@ -54,7 +54,6 @@ function csv2Array(str) {
         }
       }
     });
-    myChart.destroy();
   }
 
   function main() {
