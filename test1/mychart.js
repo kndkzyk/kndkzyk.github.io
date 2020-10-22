@@ -72,5 +72,5 @@ function csv2Array(str) {
   
   main();
   if (window.myChart) {
-    myChart.destroy();
+    window.myChart.destroy();
   }
