@@ -65,12 +65,10 @@ function csv2Array(str) {
       // 2) CSVデータ変換の呼び出し
       data = csv2Array(req.responseText);
       // 3) chart.jsデータ準備、4) chart.js描画の呼び出し
-      if (myChart) {
-        myChart.destroy();
-      }
       drawBarChart(data);
     }
     req.send(null);
   }
   
   main();
+  myChart.destroy();
