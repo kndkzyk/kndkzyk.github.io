@@ -66,7 +66,7 @@ function csv2Array(str) {
       data = csv2Array(req.responseText);
       // 3) chart.jsデータ準備、4) chart.js描画の呼び出し
       if (window.myChart) {
-        windsow.myChart.destory();
+        window.myChart.destory();
       }
       drawBarChart(data);
     }
