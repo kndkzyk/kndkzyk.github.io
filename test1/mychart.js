@@ -71,4 +71,4 @@ function csv2Array(str) {
   }
   
   main();
-  myChart.destroy();
+  window.myChart.destroy();
