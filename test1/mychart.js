@@ -31,10 +31,10 @@ function csv2Array(str) {
     }  
     // 4)chart.jsで描画
     var ctx = document.getElementById("myChart").getContext("2d");
-    if (typeof myChart !== 'undefined' && myChart) {
-      myChart.destory();
+    if (window.myChart) {
+      window.myChart.destory();
     }
-    myChart = new Chart(ctx, {
+    window.myChart = new Chart(ctx, {
       type: 'line',
       data: {
         labels: tmpLabels,
