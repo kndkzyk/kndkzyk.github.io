@@ -31,9 +31,6 @@ function csv2Array(str) {
     }  
     // 4)chart.jsで描画
     var ctx = document.getElementById("myChart").getContext("2d");
-    if (myChart) {
-      myChart.destroy();
-    }
     var myChart = new Chart(ctx, {
       type: 'line',
       data: {
